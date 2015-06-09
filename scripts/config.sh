@@ -12,19 +12,19 @@ set -a
 # configuration (can be modified)
 
 # the github project name
-classname="ucr-cs100"
+classname="example-gitlearn-1"
 
 # tmp folder for all student repos
 tmpdir="$HOME/.gitlearn/$classname"
 
 # branch of student git repository that stores the grades
-gradesbranch="grades"
+gradesbranch="master"
 
 # folder containing instructor pgp keys
-instructorinfo="people/instructors"
+instructorinfo="keys"
 
 # folder containing student information
-studentinfo="people/students"
+studentinfo="students"
 
 #######################################
 # initialization (do not modify!)
